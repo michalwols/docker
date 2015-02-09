@@ -853,7 +853,7 @@ Docker.prototype.languageParams = function(filename, filedata){
 // then let me know and I'll add it in
 Docker.prototype.languages = {
   javascript: {
-    extensions: [ 'js' ],
+    extensions: [ 'js', 'jsx' ],
     executables: [ 'node' ],
     comment: '//', multiLine: [ /\/\*\*?/, /\*\// ], commentsIgnore: /^\s*\/\/=/, jsDoc: true,
     literals: [
